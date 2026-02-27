@@ -47,8 +47,8 @@ No frameworks required.
 
 ## 📂 Project Structure
 
-
-NeuralForgeAI/
+```
+neuralforge-ai/
 │
 ├── index.html
 ├── client-portal.html
@@ -65,8 +65,9 @@ NeuralForgeAI/
 ├── images/
 │
 └── README.md
+```
 
-
+---
 
 ## 🚀 Deployment
 
