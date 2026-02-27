@@ -1,4 +1,6 @@
-# NeuralForge AI 🚀
+![Status](https://img.shields.io/badge/status-active-success)
+![Deployment](https://img.shields.io/badge/deployment-netlify-blue)
+![License](https://img.shields.io/badge/license-private-red)# NeuralForge AI 🚀
 
 Official website for **NeuralForge AI** — a modern AI-powered web development and automation agency.
 
