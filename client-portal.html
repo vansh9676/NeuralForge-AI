@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeuralForge AI | Client Portal</title>
+  <meta name="description" content="NeuralForge AI secure client portal for project updates, files, messages, invoices, and support.">
+  <meta name="theme-color" content="#070c18">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/client-portal.css">
+</head>
+<body class="portal-page">
+  <div class="ambient" aria-hidden="true">
+    <span class="glow glow-one"></span>
+    <span class="glow glow-two"></span>
+    <span class="grid-layer"></span>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand" aria-label="Back to NeuralForge AI">
+        <img src="images/logo.jpg" alt="NeuralForge AI logo" loading="eager" decoding="async">
+        <span class="brand-copy">
+          <strong>NeuralForge AI</strong>
+          <small>Client Portal</small>
+        </span>
+      </a>
+      <a href="index.html" class="btn btn-outline">Back to Website</a>
+    </div>
+  </header>
+
+  <main class="portal-main">
+    <section class="portal-login" id="portal-login">
+      <div class="container portal-login-wrap">
+        <article class="portal-login-card glass">
+          <img src="images/logo.jpg" alt="NeuralForge AI" class="portal-logo" loading="lazy" decoding="async">
+          <p class="kicker">Secure Access</p>
+          <h1>Client Portal Login</h1>
+          <p class="portal-login-sub">Access project updates, files, invoices, and support in one place.</p>
+
+          <form id="portal-login-form" class="portal-form" autocomplete="off">
+            <label for="portal-email">Email Address</label>
+            <input id="portal-email" name="email" type="email" placeholder="client@company.com" required>
+
+            <label for="portal-password">Password</label>
+            <input id="portal-password" name="password" type="password" placeholder="Enter password" required>
+
+            <button type="submit" class="btn btn-solid portal-submit">Login</button>
+          </form>
+
+          <a href="mailto:jaatvansh5556@gmail.com?subject=Client%20Portal%20Password%20Reset" class="forgot-link">Forgot Password?</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="portal-dashboard is-hidden" id="portal-dashboard">
+      <div class="container">
+        <div class="portal-shell glass">
+          <aside class="portal-sidebar">
+            <h2>Portal</h2>
+            <nav class="portal-nav" aria-label="Client dashboard menu">
+              <button type="button" class="portal-nav-link active"><i class="fas fa-chart-pie"></i><span>Dashboard</span></button>
+              <button type="button" class="portal-nav-link"><i class="fas fa-briefcase"></i><span>Projects</span></button>
+              <button type="button" class="portal-nav-link"><i class="fas fa-envelope-open-text"></i><span>Messages</span></button>
+              <button type="button" class="portal-nav-link"><i class="fas fa-folder-open"></i><span>Files</span></button>
+              <button type="button" class="portal-nav-link"><i class="fas fa-file-invoice-dollar"></i><span>Invoices</span></button>
+              <button type="button" class="portal-nav-link"><i class="fas fa-headset"></i><span>Support</span></button>
+            </nav>
+            <button type="button" id="portal-logout" class="portal-logout"><i class="fas fa-right-from-bracket"></i><span>Logout</span></button>
+          </aside>
+
+          <div class="portal-content">
+            <header class="portal-content-head">
+              <p class="kicker">Dashboard</p>
+              <h2>Welcome back, <span id="portal-client-name">Client Name</span></h2>
+              <p>Your projects are moving forward. Here is your latest progress snapshot.</p>
+            </header>
+
+            <section class="project-status-grid" aria-label="Project statuses">
+              <article class="status-card glass">
+                <div class="status-head">
+                  <h3>Website Development</h3>
+                  <span class="status-badge in-progress">In Progress</span>
+                </div>
+                <div class="progress-track" aria-hidden="true"><span style="width: 72%"></span></div>
+                <small>72% complete</small>
+              </article>
+
+              <article class="status-card glass">
+                <div class="status-head">
+                  <h3>AI Automation</h3>
+                  <span class="status-badge pending">Pending Review</span>
+                </div>
+                <div class="progress-track" aria-hidden="true"><span style="width: 45%"></span></div>
+                <small>45% complete</small>
+              </article>
+
+              <article class="status-card glass">
+                <div class="status-head">
+                  <h3>SEO Setup</h3>
+                  <span class="status-badge complete">Completed</span>
+                </div>
+                <div class="progress-track" aria-hidden="true"><span style="width: 100%"></span></div>
+                <small>100% complete</small>
+              </article>
+            </section>
+
+            <section class="portal-panels">
+              <article class="portal-panel glass">
+                <header>
+                  <h3>Recent Messages</h3>
+                  <a href="#" class="panel-link">View all</a>
+                </header>
+                <ul class="message-list">
+                  <li>
+                    <strong>NeuralForge Team</strong>
+                    <p>Homepage revision has been deployed to staging for your review.</p>
+                    <time datetime="2026-02-26">Feb 26, 2026</time>
+                  </li>
+                  <li>
+                    <strong>Project Manager</strong>
+                    <p>Please confirm final copy for the services section by tomorrow.</p>
+                    <time datetime="2026-02-25">Feb 25, 2026</time>
+                  </li>
+                </ul>
+              </article>
+
+              <article class="portal-panel glass">
+                <header>
+                  <h3>Files</h3>
+                  <a href="#" class="panel-link">Open drive</a>
+                </header>
+                <ul class="file-list">
+                  <li>
+                    <div>
+                      <strong>Brand-Assets.zip</strong>
+                      <small>Updated Feb 24, 2026</small>
+                    </div>
+                    <button type="button" class="btn btn-outline file-btn"><i class="fas fa-download"></i> Download</button>
+                  </li>
+                  <li>
+                    <div>
+                      <strong>Homepage-Mockup-v3.pdf</strong>
+                      <small>Updated Feb 23, 2026</small>
+                    </div>
+                    <button type="button" class="btn btn-outline file-btn"><i class="fas fa-download"></i> Download</button>
+                  </li>
+                </ul>
+              </article>
+
+              <article class="portal-panel glass">
+                <header>
+                  <h3>Invoices</h3>
+                  <a href="#" class="panel-link">Billing history</a>
+                </header>
+                <ul class="invoice-list">
+                  <li>
+                    <div>
+                      <strong>INV-2041</strong>
+                      <small>Milestone 2</small>
+                    </div>
+                    <span class="invoice-status paid">Paid</span>
+                  </li>
+                  <li>
+                    <div>
+                      <strong>INV-2048</strong>
+                      <small>Maintenance Retainer</small>
+                    </div>
+                    <span class="invoice-status due">Due</span>
+                  </li>
+                </ul>
+              </article>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/client-portal.js"></script>
+</body>
+</html>

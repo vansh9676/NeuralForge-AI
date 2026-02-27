@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeuralForge AI | Web Development Company</title>
+  <meta name="description" content="NeuralForge AI is a premium web development company building high-converting websites, automation systems, and AI-powered tools for modern businesses.">
+  <meta name="keywords" content="web development company, AI agency, NeuralForge AI, website design, automation systems, custom web apps">
+  <meta name="theme-color" content="#070c18">
+  <meta property="og:title" content="NeuralForge AI">
+  <meta property="og:description" content="AI-Powered Websites That Grow Your Business">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="ambient" aria-hidden="true">
+    <span class="glow glow-one"></span>
+    <span class="glow glow-two"></span>
+    <span class="grid-layer"></span>
+  </div>
+  <div class="pointer-follower" aria-hidden="true">
+    <span class="pointer-dot"></span>
+    <span class="pointer-ring"></span>
+  </div>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="#home" class="brand" aria-label="NeuralForge AI home">
+        <img src="images/logo.jpg" alt="NeuralForge AI logo" loading="eager" decoding="async">
+        <span class="brand-copy">
+          <strong>NeuralForge AI</strong>
+          <small>Web Development Company</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="main-nav" class="main-nav" aria-label="Primary navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#portfolio" class="nav-link">Portfolio</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="client-portal.html" class="nav-link">Client Portal</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="#contact" class="btn btn-solid nav-cta">Start Your Project</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="section hero-section">
+      <div class="container hero-layout">
+        <div class="hero-copy reveal">
+          <p class="kicker">NeuralForge AI</p>
+          <h1>You imagine the future. <span>We build it.</span></h1>
+          <p class="hero-sub">AI-powered websites and automation systems designed to help startups, local businesses, and agencies grow faster, smarter, and more efficiently.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-solid">Start Your Project</a>
+            <a href="#portfolio" class="btn btn-outline">View Work</a>
+          </div>
+          <ul class="hero-points">
+            <li><i class="fas fa-circle-check"></i> Conversion-focused UI and UX</li>
+            <li><i class="fas fa-circle-check"></i> Fast delivery with clean code</li>
+            <li><i class="fas fa-circle-check"></i> Long-term growth partnership</li>
+          </ul>
+        </div>
+
+        <div class="hero-panel reveal" style="--delay: 0.1s;">
+          <!--div class="panel-window glass">
+            <div class="window-head">
+              <span></span><span></span><span></span>
+              <p>neuralforge-dashboard.tsx</p>
+            </div>
+            <div class="window-code">
+              <p><span class="code-key">const</span> <span class="code-var">growthEngine</span> = {</p>
+              <p>&nbsp;&nbsp;website: <span class="code-str">"premium"</span>,</p>
+              <p>&nbsp;&nbsp;automation: <span class="code-bool">true</span>,</p>
+              <p>&nbsp;&nbsp;leadFlow: <span class="code-str">"optimized"</span>,</p>
+              <p>&nbsp;&nbsp;support: <span class="code-str">"ongoing"</span></p>
+              <p>};</p>
+            </div>
+            <div class="panel-metrics">
+              <article>
+                <h3>+233%</h3>
+                <p>Avg Lead Growth</p>
+              </article>
+              <article>
+                <h3>1.9s</h3>
+                <p>Fast Page Load</p>
+              </article>
+            </div>
+          </div-->
+        </div>
+      </div>
+
+      <div class="container stats-strip reveal" style="--delay: 0.2s;">
+        <article class="stat glass">
+          <h3 class="counter" data-target="50">0</h3>
+          <p>Projects</p>
+        </article>
+        <article class="stat glass">
+          <h3><span class="counter" data-target="98">0</span>%</h3>
+          <p>Client Satisfaction</p>
+        </article>
+        <article class="stat glass">
+          <h3 class="counter" data-target="20">0</h3>
+          <p>AI Solutions</p>
+        </article>
+        <article class="stat glass">
+          <h3>24h</h3>
+          <p>Response Time</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="services" class="section services-section">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="kicker">Our Expertise</p>
+          <h2>Services that turn your website into a growth machine</h2>
+        </header>
+
+        <div class="services-grid">
+          <a href="services/ai-website.html" class="service-card glass reveal" style="--delay: 0.02s;">
+            <i class="fas fa-laptop-code"></i>
+            <h3>AI Website Development</h3>
+            <p>High-performance business websites designed to convert traffic into leads.</p>
+          </a>
+          <a href="services/automation.html" class="service-card glass reveal" style="--delay: 0.06s;">
+            <i class="fas fa-gears"></i>
+            <h3>Business Automation</h3>
+            <p>Workflow automation for inquiries, follow-ups, client onboarding, and operations.</p>
+          </a>
+          <a href="services/seo.html" class="service-card glass reveal" style="--delay: 0.1s;">
+            <i class="fas fa-chart-line"></i>
+            <h3>SEO &amp; Lead Generation</h3>
+            <p>Technical SEO and growth funnels that continuously attract qualified clients.</p>
+          </a>
+          <a href="services/chatbot.html" class="service-card glass reveal" style="--delay: 0.14s;">
+            <i class="fas fa-comment-dots"></i>
+            <h3>Chatbot Integration</h3>
+            <p>Intelligent chat assistants that answer questions and capture leads 24/7.</p>
+          </a>
+          <a href="services/webapps.html" class="service-card glass reveal" style="--delay: 0.18s;">
+            <i class="fas fa-code-branch"></i>
+            <h3>Custom Web Apps</h3>
+            <p>Scalable custom dashboards, portals, and internal systems built for your team.</p>
+          </a>
+          <a href="services/support.html" class="service-card glass reveal" style="--delay: 0.22s;">
+            <i class="fas fa-headset"></i>
+            <h3>Maintenance &amp; Support</h3>
+            <p>Ongoing support, upgrades, and optimization to keep your digital stack sharp.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section why-section">
+      <div class="container why-layout">
+        <article class="why-intro glass reveal">
+          <p class="kicker">Why Choose Us</p>
+          <h2>We are not just designers. We are growth-focused developers.</h2>
+          <p>NeuralForge AI combines premium visual design with engineering precision. We build websites that look elite, load fast, and move people to take action.</p>
+        </article>
+
+        <div class="why-grid">
+          <article class="why-card glass reveal" style="--delay: 0.06s;">
+            <h3>Innovative AI Solutions</h3>
+            <p>Modern tools applied practically to help your business operate smarter.</p>
+          </article>
+          <article class="why-card glass reveal" style="--delay: 0.1s;">
+            <h3>Fast Delivery</h3>
+            <p>Clear milestones, short build cycles, and predictable shipping speed.</p>
+          </article>
+          <article class="why-card glass reveal" style="--delay: 0.14s;">
+            <h3>Affordable Pricing</h3>
+            <p>Premium quality with pricing designed for real growing businesses.</p>
+          </article>
+          <article class="why-card glass reveal" style="--delay: 0.18s;">
+            <h3>Client Focused</h3>
+            <p>Direct communication, honest timelines, and measurable results.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section portfolio-section">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="kicker">Portfolio</p>
+          <h2>Selected projects built for results</h2>
+        </header>
+
+        <div class="portfolio-grid">
+          <article class="project-card glass reveal" style="--delay: 0.04s;">
+            <figure>
+              <img src="images/project1.png" alt="ExamHub Platform project" loading="lazy" decoding="async">
+            </figure>
+            <h3>ExamHub Platform</h3>
+            <p>Live mock-test web app for students with real-time exam experience and instant feedback.</p>
+            <div class="tags"><span>React</span><span>Python</span><span>AI</span></div>
+            <a href="https://examhub.infinityfree.me/" class="btn btn-outline project-visit" target="_blank" rel="noopener noreferrer">
+              Visit Site <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="project-card glass reveal" style="--delay: 0.09s;">
+            <figure>
+              <img src="images/project2.png" alt="Business Website project" loading="lazy" decoding="async">
+            </figure>
+            <h3>Business Website</h3>
+            <p>Financial website with tools and conversion-focused structure for user trust and engagement.</p>
+            <div class="tags"><span>Next.js</span><span>UI/UX</span><span>CRM</span></div>
+            <a href="https://calctools.co.in/" class="btn btn-outline project-visit" target="_blank" rel="noopener noreferrer">
+              Visit Site <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="project-card glass reveal" style="--delay: 0.14s;">
+            <figure>
+              <img src="images/project3.png" alt="AI Automation System project" loading="lazy" decoding="async">
+            </figure>
+            <h3>AI Automation System</h3>
+            <p>Developer personal portfolio showcasing projects, skills, and modern frontend presentation.</p>
+            <div class="tags"><span>Node.js</span><span>Automation</span><span>Zapier</span></div>
+            <a href="https://vansh9676.github.io/" class="btn btn-outline project-visit" target="_blank" rel="noopener noreferrer">
+              Visit Site <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process-section">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="kicker">Our Process</p>
+          <h2>A clear path from idea to launch</h2>
+        </header>
+
+        <div class="timeline">
+          <article class="timeline-step glass reveal" style="--delay: 0.02s;">
+            <span>01</span>
+            <h3>Discovery</h3>
+            <p>Define goals, audience, and opportunities for digital growth.</p>
+          </article>
+          <article class="timeline-step glass reveal" style="--delay: 0.06s;">
+            <span>02</span>
+            <h3>Design</h3>
+            <p>Create modern interface systems and conversion-oriented user flows.</p>
+          </article>
+          <article class="timeline-step glass reveal" style="--delay: 0.1s;">
+            <span>03</span>
+            <h3>Development</h3>
+            <p>Build scalable frontend and backend systems with performance focus.</p>
+          </article>
+          <article class="timeline-step glass reveal" style="--delay: 0.14s;">
+            <span>04</span>
+            <h3>Launch</h3>
+            <p>Deploy, monitor, and optimize for long-term lead and revenue growth.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="container about-layout">
+        <figure class="about-photo glass reveal">
+          <img src="images/founder.png" alt="Founder placeholder" loading="lazy" decoding="async">
+        </figure>
+
+        <article class="about-copy reveal" style="--delay: 0.08s;">
+          <p class="kicker">About</p>
+          <h2>Vansh <span>Founder &amp; software engineer</span></h2>
+          <p>NeuralForge AI was built to help businesses compete with premium digital experiences, not template websites. We combine strategic thinking, modern development, and AI systems to create assets that deliver real value.</p>
+          <p>Whether you are launching a startup or scaling a local service business, we help you build a web presence that generates trust, leads, and momentum.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section testimonials-section">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="kicker">Testimonials</p>
+          <h2>What clients say about working with us</h2>
+        </header>
+
+        <div class="testimonials-grid">
+          <article class="testimonial glass reveal" style="--delay: 0.03s;">
+            <div class="stars">★★★★★</div>
+            <p>"Our new website from NeuralForge brought in better leads and made us look far more premium in our market."</p>
+            <h3>Priya K.</h3>
+            <span>Wellness Coach</span>
+          </article>
+          <article class="testimonial glass reveal" style="--delay: 0.07s;">
+            <div class="stars">★★★★★</div>
+            <p>"Fast delivery, clean code, and clear communication. They built exactly what our startup needed."</p>
+            <h3>Marcus T.</h3>
+            <span>SaaS Founder</span>
+          </article>
+          <article class="testimonial glass reveal" style="--delay: 0.11s;">
+            <div class="stars">★★★★★</div>
+            <p>"Professional team. Our site now feels like a serious brand and our inquiries have increased."</p>
+            <h3>Elena R.</h3>
+            <span>Business Owner</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-section">
+      <div class="container">
+        <div class="cta-box glass reveal">
+          <p class="kicker">Let’s Build</p>
+          <h2>Ready to build your AI-powered business?</h2>
+          <a href="#contact" class="btn btn-solid">Start Your Project</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-layout">
+        <article class="contact-form glass reveal">
+          <p class="kicker">Contact</p>
+          <h2>Tell us about your project</h2>
+          <form action="https://formspree.io/f/xreadqyd" method="POST" accept-charset="UTF-8">
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us what you want to build" required></textarea>
+
+            <button type="submit" class="btn btn-solid">Send Message</button>
+          </form>
+        </article>
+
+        <aside class="contact-info glass reveal" style="--delay: 0.08s;">
+          <h3>Contact Info</h3>
+          <ul>
+            <li><i class="fas fa-envelope"></i><a href="mailto:jaatvansh5556@gmail.com">jaatvansh5556@gmail.com</a></li>
+            <li><i class="fas fa-phone"></i><a href="tel:+919671766584">9671766584</a></li>
+            <li><i class="fas fa-location-dot"></i><span>Panipat, Haryana, India</span></li>
+          </ul>
+          <div class="socials">
+            <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://twitter.com" target="_blank" rel="noreferrer" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <div class="chat-widget" data-chat-widget>
+    <button class="chat-toggle-btn" type="button" aria-label="Open chat assistant" aria-expanded="false">
+      <i class="fas fa-comments"></i>
+      <span>Chat</span>
+    </button>
+
+    <section class="chat-panel" aria-label="Website assistant">
+      <header class="chat-header">
+        <div>
+          <h3>NeuralForge Assistant</h3>
+          <p>Ask about services, pricing, and timelines.</p>
+        </div>
+        <button class="chat-close-btn" type="button" aria-label="Close chat">
+          <i class="fas fa-xmark"></i>
+        </button>
+      </header>
+
+      <div class="chat-messages" role="log" aria-live="polite">
+        <article class="chat-bubble assistant">
+          Hi, I am your NeuralForge AI assistant. How can I help with your project today?
+        </article>
+      </div>
+
+      <form class="chat-form" autocomplete="off">
+        <label for="chat-input" class="sr-only">Type your message</label>
+        <input id="chat-input" type="text" name="message" placeholder="Type your message..." maxlength="500" required>
+        <button type="submit" class="chat-send-btn" aria-label="Send message">
+          <i class="fas fa-paper-plane"></i>
+        </button>
+      </form>
+    </section>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-layout">
+      <div class="footer-brand">
+        <a href="#home" class="brand" aria-label="Back to home">
+          <img src="images/logo.jpg" alt="NeuralForge AI logo" loading="lazy" decoding="async">
+          <span class="brand-copy">
+            <strong>NeuralForge AI</strong>
+            <small>Web Development Company</small>
+          </span>
+        </a>
+        <p>AI-powered websites and automation systems for businesses that want measurable growth.</p>
+      </div>
+
+      <div>
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Social</h3>
+        <div class="socials">
+          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://twitter.com" target="_blank" rel="noreferrer" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; 2026 NeuralForge AI</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
